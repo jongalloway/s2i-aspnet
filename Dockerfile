@@ -3,8 +3,8 @@ FROM openshift/base-centos7
 MAINTAINER Albert Wong <albert@redhat.com>
 
 ENV \ 
-    ASPNETCORE_VERSION=1.0.0-preview1 \
-    INSTALLER_ASPNETCORE_VERSION=1.0.0-preview1-002702 \
+    ASPNETCORE_VERSION=1.0.0 \
+    INSTALLER_ASPNETCORE_VERSION=1.0.0-preview2-003121 \
     HOME=/opt/app-root/src
 
 # Set the labels that are used for Openshift to describe the builder image.
